@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#430081</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="main_color">#0087b4</color>
+    <color name="main_color_darker">#00688b</color>
+
+    <color name="app_color_lighter">#2acaa7</color>
+    <color name="main_color_light">#24bc9a</color>
+    <color name="color_gray">#a7a6a6</color>
+    <color name="black">#000000</color>
+    <color name="facebook_out">#3B579D</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#8bc34a</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="red">#d0222f</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="header_date_color">#aed0d1</color>
+    <color name="grey_dark">#535353</color>
+    <color name="grey">#848484</color>
+    <color name="grey_light">#E1E1E1</color>
+    <item name="gray_holo_dark" type="color">#6e6e6e</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <color name="hint_color">#032043</color>
+
+    <color name="pressed_item">#e4f4ff</color>
+    <color name="opponent_grey_bubble">#C4C4C4</color>
+    <color name="blue_transparent">#330000ff</color>
+</resources>

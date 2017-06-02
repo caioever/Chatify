@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.daniel0x7cc.chatify.customviews.RoundedImageView
+                    android:id="@+id/actMyProfile_avatar"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder_avatar"
+                    app:border_color="#aba3a3"
+                    app:border_width="2dp"
+                    app:oval="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/actMyProfile_editAvatar"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_edit"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome: "
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/actMyProfile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail: "
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/actMyProfile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Switch
+                android:id="@+id/actMyProfile_switch"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/margin_16"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_16"
+                android:textColor="@color/gray_holo_dark"
+                android:theme="@style/SCBSwitch"
+                android:text="" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/actMyProfile_logout"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:text="@string/logout"
+                android:textColor="@color/btn_login_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="20dp"
+                android:layout_height="40dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/profile_tab_ic_edit"-->
+    <!--android:id="@+id/imageView" />-->
+

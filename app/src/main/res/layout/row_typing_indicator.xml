@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_default"
+    android:paddingBottom="@dimen/margin_small"
+    android:paddingLeft="@dimen/margin_small"
+    android:paddingRight="@dimen/margin_small"
+    android:orientation="horizontal">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Small" />
+
+    <TextView
+        android:id="@+id/rowTypingIndicator_tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_small"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textColor="#9d9ba5"
+        android:textStyle="italic"
+        android:textSize="@dimen/text_12"
+        android:text="Typing Indicator" />
+
+</LinearLayout>

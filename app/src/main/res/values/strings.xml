@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Chatify</string>
+    <string name="user">Usuário</string>
+    <string name="chats">Conversas</string>
+    <string name="users">Usuários</string>
+
+    <string name="welcome">Bem-vindo, %s!</string>
+    <string name="str_link_to_register">Não possui uma conta?</string>
+    <string name="str_register_now">Cadastre-se já!</string>
+    <string name="login_with_email">Entrar com e-mail</string>
+    <string name="logging_in">Entrando, por favor aguarde.</string>
+    <string name="login_mismatch">E-mail e/ou senha invalidos.</string>
+
+    <string name="create_account">Criar conta</string>
+    <string name="already_member">Já é um membro? Faça o login.</string>
+    <string name="invalid_email_format">O e-mail digitado é inválido.</string>
+
+    <string name="my_profile">Meu Perfil</string>
+    <string name="logout">Sair</string>
+
+    <string name="pick_image">Selecione uma foto</string>
+
+    <string name="empty_chats">Você não possui conversas.</string>
+    <string name="searching_users_nearby">Procurando usuários próximos de você...</string>
+    <string name="loading_chats">Carregando conversas...</string>
+
+    <string name="bad_request_gps">Você recusou a permissão de uso da sua localização.</string>
+
+    <string name="forgot_password">Esqueceu sua senha?</string>
+    <string name="click_here_to_remember">Clique aqui para recuperá-la</string>
+    <string name="change_password">Redefinir Senha</string>
+    <string name="email_sent_change_pass">Um e-mail para redefinição de senha foi enviado para %s</string>
+    <string name="empty_email">O campo e-mail está em branco.</string>
+    <string name="failed_to_send_mail">Falha ao enviar e-mail.</string>
+
+    <string name="picture_of">Foto de %s</string>
+    <string name="time_day">dia</string>
+    <string name="time_hour">hora</string>
+    <string name="time_minute">minuto</string>
+    <string name="time_month">mês</string>
+    <string name="time_second">segundo</string>
+    <string name="time_year">ano</string>
+    <string name="time_week">semana</string>
+    <string name="zero_seconds_ago">0 segundos</string>
+    <string name="time_ago">atrás</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="zero_time" translatable="false">00:00</string>
+
+    <!-- Format -->
+    <string name="format_yyyyMMdd_HHmmss" translatable="false">yyyy-MM-dd HH:mm:ss</string>
+    <string name="format_time_HHmm" translatable="false">%02d:%02d</string>
+
+    <string name="online_now"> online</string>
+    <string name="one_minute_ago"> 1 minuto atrás</string>
+    <string name="minutes_ago">  minutos atrás</string>
+    <string name="one_hour_ago">  1 hora atrás</string>
+    <string name="hours_ago">  horas atrás</string>
+    <string name="yesterday">Ontem</string>
+    <string name="days_ago"> dias atrás</string>
+
+    <string name="distance_formatted">%d KM de distância</string>
+    <string name="near_distance_formatted">menos de %d KM de distância</string>
+
+    <string name="str_loading_photo">Carregando foto, aguarde...</string>
+    <string name="file_was_attached">O arquivo foi anexado.</string>
+    <string name="str_recording_audio">Gravando audio...</string>
+    <string name="str_swipe_to_cancel">Deslize para cancelar.</string>
+    <string name="inf_send">Enviar mensagme</string>
+    <string name="see_user_profile">Ver perfil de %s</string>
+    <string name="file">Arquivo</string>
+
+    <string name="str_yes">Sim</string>
+    <string name="str_no">Não</string>
+
+    <string name="nobody_nearby">Não há ninguém por perto.</string>
+    <string name="gps_disabled">Seu GPS está desativado. Clique aqui para ativá-lo.</string>
+
+    <string name="str_audio_message">Mensagem de voz</string>
+    <string name="str_play_audio">Reproduzir</string>
+    <string name="str_reply_to">Responder para %s</string>
+    <string name="type_hint_message">Digite sua mensagem aqui</string>
+    <string name="chat_header_yesterday">Ontem</string>
+    <string name="chat_header_today">Hoje</string>
+
+    <string name="str_user">Usuário</string>
+
+    <string name="chat_is">está</string>
+    <string name="chat_typing">digitando</string>
+    <string name="is_chat_typing">%s está digitando...</string>
+    <string name="sb_send_message">Para conversar você precisa de uma conexão com a Internet.</string>
+
+    <string name="could_not_send_image_please_try_again">Não foi possível enviar imagem. Por favor, tente novamente.</string>
+    <string name="could_not_send_audio_message_please_try_again">Não foi possível enviar mensagem de áudio. Por favor, tente novamente.</string>
+    <string name="could_not_send_message_please_try_again">Não foi possível enviar mensagem. Por favor, tente novamente.</string>
+
+    <string name="chat_msg_deleted">A mensagem foi deletada com sucesso.</string>
+
+    <string-array name="upload_array_list">
+        <item>Câmera</item>
+        <item>Galeria</item>
+        <item>Cancelar</item>
+    </string-array>
+
+    <string name="con_des_play">Tocar aúdio</string>
+    <string name="con_des_status">Status de entrega da mensagem</string>
+    <string name="con_des_copy">Copiar mensagem</string>
+    <string name="con_des_delete">Deletar mensagem</string>
+    <string name="con_des_forward">Encaminhar mensagem</string>
+    <string name="con_des_back">Sair da conversa</string>
+</resources>
